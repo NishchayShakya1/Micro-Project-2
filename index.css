@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    padding: 70px;
+    margin: 55px;
+    margin-bottom: 19px;
+    padding-bottom: 43px;
+
+
+}
+
+.navbar{
+    height: 80px;
+    background-color: #6F6AF7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+}
+
+.nav-left{
+    font-family: "Delius Unicase", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-mid{
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-mid > a{
+    text-decoration: none;
+    color: white;
+    padding-right: 53px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.search-cont{
+  position: relative;
+}
+
+.search-cont>input{
+    color: #9f9f9f;
+    border-radius: 15px;
+    padding: 8px 30px 8px 10px;
+    border: 0px;
+
+}
+
+.search-cont > .fa-solid.fa-magnifying-glass {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav-right{
+  color: white;
+}
+.nav-right > i {
+  font-size: 40px;
+}
+
+
+.fa-angle-down{
+  font-size: 10px;
+}
+
+.imgcard {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .card-img {
+    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 4px 7px 32px 0px black;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .card-img>img {
+    width: 100%;
+    height: auto;
+    
+
+  }
+  
+  .card-right {
+    flex: 1;
+    margin-left: 30px; 
+  }
+  
+  textarea {
+    width: 100%;
+    height: 400px; 
+    box-sizing: border-box;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #e5d8ff;
+    color: #6f7373;
+    border-radius: 10px;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .logos{
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 230px;
+      right: 19px; 
+      width: 50px;
+  }
+
+  .whats{
+    border-radius: 8px;
+    border: 2px solid #000000
+  }
+
+  .logos img{
+    margin-bottom: 2px;
+
+  }
+
+  .cards{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 0;
+    gap: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+  }
+  .card{
+    width: 250px;
+    height: auto;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #6F6AF7;
+    padding: 18px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+    
+
+  }
+
+  .one{
+    background-color: #929DFF;
+  }
+  .two{
+    background-color: #734cf2;
+  }
+  .three{
+    background-color: #d288ff;
+  }
+  .four{
+    background-color: black;
+    position: relative;
+  }
+
+
+  .help-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .help-background {
+    z-index: 999;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: fixed;
+    top: 636px;
+    right: 126px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .card h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+  }
+
+  .information{
+    margin-top: 80px;
+    background-color: #483eff;
+    display: flex;
+    height: 350px;
+    
+  }
+  .infos{
+    margin: 20px;
+    padding: 5px;
+    font-family: "DM Sans", sans-serif;
+    width: 321px;
+    
+  }
+
+  .infos > h3{
+    color: black;
+    background-color: #bce0f6;
+    box-shadow: 0px 6px 35px 0px #00000063;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+
+  }
+  
+
+  .infos > p{
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+  }
+ 
+
+  .personal{
+    position: relative;
+    flex-grow: 1;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    
+  }
+  .personal>p{
+    margin-left: 15px;
+  }
+
+  .personal > h3{
+    font-family: "Inter", sans-serif;
+  }
+
+  
+  .fa-arrow-right{
+    padding-left: 10px;
+  }
+
+  button{
+    position: absolute;
+    right: 30px;
+    border-radius: 5px;
+    align-items: baseline;
+    padding: 5px;
+    width: 80px;
+    color: white;
+    background-color: black;
+  }
+
+
+  
+  
